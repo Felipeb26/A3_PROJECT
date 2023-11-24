@@ -6,8 +6,8 @@
 # D1N = Brasil                      example "Brasil"
 # D2C = Variável (Código)           example "Brasil"
 # D2N = Variável                    example "4099"
-# D3C = Trimestre Móvel (Código)    example "Taxa de desocupação, na semana de referência, das pessoas de 14 anos ou mais de idade"
-# D3N = Trimestre Móvel             example "201203
+# D3N = Trimestre Móvel (Código)    example "Taxa de desocupação, na semana de referência, das pessoas de 14 anos ou mais de idade"
+# D3C = Trimestre Móvel (Código)    example "201203
 # V = Valor                         example "8.0"
 
 from enum import Enum

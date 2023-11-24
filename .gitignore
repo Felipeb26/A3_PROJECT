@@ -1,0 +1,7 @@
+__pycache__
+__*
+.venv
+.vscode
+reponse.json
+
+*.pyc

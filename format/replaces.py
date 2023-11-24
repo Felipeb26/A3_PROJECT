@@ -19,3 +19,8 @@ def replace(df:DataFrame,column_name, old_value, new_value):
         else:
             df.loc[df[column_name] == old_value, column_name] = new_value
     return df
+
+def drop_column(df:DataFrame, colmns:list):
+    for column in colmns:
+        df = df.drop(columns=[column],axis=1)
+    return df
